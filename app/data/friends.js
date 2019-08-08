@@ -29,6 +29,16 @@ var friendsData = [
 "photo" : "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
 "scores" : [4,5,2,5,1,4,2,5,2,3]
 },
+{
+"name" : "Yoga Man",
+"photo" : "https://images.pexels.com/photos/1154181/pexels-photo-1154181.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+"scores" : [4,5,2,5,1,4,2,5,2,3]
+},
+{
+"name" : "Hip Woman",
+"photo" : "https://images.pexels.com/photos/1036622/pexels-photo-1036622.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+"scores" : [4,5,2,5,1,4,2,5,2,3]
+    }
 
 ]
 
