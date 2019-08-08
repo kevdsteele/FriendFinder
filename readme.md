@@ -24,7 +24,7 @@
 
   This is the home page for the application 
 
-- */app/public.survey.html*
+- */app/public/survey.html*
 
   This is the survey page for the application 
 
