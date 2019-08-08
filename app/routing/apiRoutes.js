@@ -19,7 +19,7 @@ module.exports = function(app) {
   // (ex: localhost:PORT/api/admin... they are shown a JSON of the data in the table)
   // ---------------------------------------------------------------------------
 
-  app.get("/data/friends", function(req, res) {
+  app.get("/api/friends", function(req, res) {
     res.json(friendsData);
   });
 
@@ -33,7 +33,7 @@ module.exports = function(app) {
   // Then the server saves the data to the tableData array)
   // ---------------------------------------------------------------------------
 
-  app.post("/data/friends", function(req, res) {
+  app.post("/api/friends", function(req, res) {
   var closestScore =100
   var closestName =""
   var closestPhoto=""
@@ -60,7 +60,7 @@ module.exports = function(app) {
   console.log("The closest match is " + closestName + " photo " + closestPhoto)
   var data = {"name" : closestName, "photo" : closestPhoto}
   res.json(data)
-  
+
   friendsData.push(req.body)
  
   });
